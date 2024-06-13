@@ -32,6 +32,10 @@ On Debian/Ubuntu:
     sudo apt-get update
     sudo apt-get install wine32
 
+**Potentially fix black (no transparency) issue**
+
+    sudo apt-get install winetricks
+    winetricks corefonts dotnet45 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2015 vcrun2017 vcrun2019 allfonts directx9 d3dx9 d3dx10 d3dx11_42 d3dx11_43 physx xact xinput xna40 wmpcodecs amstream devenum quartz
 
 Running the Application
 
