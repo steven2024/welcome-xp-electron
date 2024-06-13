@@ -28,8 +28,10 @@ Install Wine (Linux only):
 
 On Debian/Ubuntu:
 
+    sudo dpkg --add-architecture i386
     sudo apt-get update
-    sudo apt-get install wine32:i386
+    sudo apt-get install wine32
+
 
 Running the Application
 
