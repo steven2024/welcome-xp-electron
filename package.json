@@ -1,0 +1,20 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.9.8"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "howler": "^2.2.3",
+    "sound-play": "^1.1.0"
+  }
+}
